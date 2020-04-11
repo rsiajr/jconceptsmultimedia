@@ -165,7 +165,7 @@
 
 body{
     background-color: lightgray;
-    background-image: url('/img/backdrop.jpeg');
+    background-image: url('/img/backdrop.jpg');
     background-size: cover;
 }
 
@@ -1100,7 +1100,7 @@ border: 2px solid #222;
 /* This portion changes the layout of the header section */
 
     a{
-        color: goldenrod;
+        color: cornflowerblue;
     }
 
     .logo{
@@ -1109,7 +1109,7 @@ border: 2px solid #222;
 
     .newtitle{
         display: inline-block;
-        color: goldenrod;
+        color: cadetblue;
         font-size: 3.5rem;
         margin-left: 2%;
         margin-right: 5%;
@@ -1225,7 +1225,7 @@ border: 2px solid #222;
         display: block;
     }
 
-    .helpmenu {
+    /* .helpmenu {
         background-color: goldenrod;
         color: black;
         padding: 1em;
@@ -1276,7 +1276,7 @@ border: 2px solid #222;
     
     .question{
         padding: 1% 10%;
-    }
+    } */
 
 }
 

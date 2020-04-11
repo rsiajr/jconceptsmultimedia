@@ -23,41 +23,39 @@
           <button type="button" class="menu-button" id="drop">
           <span class="material-icons">menu</span>
           </button>
-          <h1 class="newtitle"><a href="#">King eCom</a></h1>
+          <h1 class="newtitle"><a href="#">J</a></h1>
             <div class="divtopmenu">
               <ul class="ultopmenu">
                 <li class="ultopmenu ultophighlight">Home</li>
-                <li class="ultopmenu">Account</li>
-                <li class="ultopmenu">Transactions</li>
-                <li class="ultopmenu">Category</li>
-                <li class="ultopmenu">Deals</li>
+                <li class="ultopmenu">Portfolio</li>
+                <li class="ultopmenu">Clients</li>
+                <li class="ultopmenu">Reviews</li>
+                <li class="ultopmenu">About</li>
                 <li class="ultopmenu">Contact</li>
               </ul>
             </div>
           <a href="index.html"><img src="img/company logo.jpg" alt="HTML Logo (replace this)" class="logo"></a>
           <a href="#" title="Sign in or Create an account"><img src="img/log-in.png" alt="Button to sign in or create an account" class="signin"></a>
           <!-- Once a larger viewport is reached via Media Query, the sign in button is replaced by the cart logo -->
-          <a href="#" title="addtocartimg"><img src="img/shopping-cart.png" alt="Add to cart button" id="addcart" class="addtocartimg"></a>
+          <!-- <a href="#" title="addtocartimg"><img src="img/shopping-cart.png" alt="Add to cart button" id="addcart" class="addtocartimg"></a> -->
           <!-- This cartnum is linked to JS and will keep adding "1" if a user clicks on the "Add to cart" button for each product. It's broken though because only the first product's button works and the succeeding ones don't, which is weird because all products use the same ID. Don't know how to fix it so I left it as is. -->
-          <p class="carttext"><span id="cartnum" class="cartnum">0</span> items in cart</p>
+          <!-- <p class="carttext"><span id="cartnum" class="cartnum">0</span> items in cart</p> -->
         </div>
       </section>
       <!-- This is the popup menu list -->
       <nav aria-label="Primary" class="navigation" id="dropit" class="navclass">
         <ul class="mainmenu" id="menu">
           <li><a href="#" class="menulist">Home</a>
-          <li><a href="#" class="menulist">My Account</a></li>
-          <li><a href="#" class="menulist">My Transactions</a></li>
-          <li><a href="#" class="menulist">Search History</a></li>
-          <li><a href="#" class="menulist">My Reviews</a></li>
-          <li><a href="#" class="menulist">Shop by Category</a></li>
-          <li><a href="#" class="menulist">Today's Deals</a></li>
+          <li><a href="#" class="menulist">Portfolio</a></li>
+          <li><a href="#" class="menulist">Clients</a></li>
+          <li><a href="#" class="menulist">Reviews</a></li>
+          <li><a href="#" class="menulist">Social Media</a></li>
           <li><a href="#" class="menulist">Contact Us</a></li>
           <li><a href="#" class="menulist">About</a></li>
         </ul>
       </nav>
       <!-- This is the popup help menu list (still trying to fix it) -->
-      <nav aria-label="Secondary" class="navigationtwo" id="droptwo" class="navclasstwo">
+      <!-- <nav aria-label="Secondary" class="navigationtwo" id="droptwo" class="navclasstwo">
         <ul class="helpmenu hideshow" id="helpmenu">
           <li>
             <label>Name: </label>
@@ -82,58 +80,15 @@
             <input type="button" id="cancel" value="Cancel" class="cancelme">
           </li>
       </ul>
-    </nav>
+    </nav> -->
     </header>
     <main>
       <header>
         <!-- This the sort feature area -->
         <section class="marg-top">
-          <form class="centerme">
-            <div class="subhead">
-              <input type="search" name="find" id="find" placeholder="Search (by color)" class="searchbar">
-              <select name="sort" id="sort" class="dropdownlist">
-                <option value="Sort by...">Sort by...</option>
-                <option value="price-high">Price, highest to lowest</option>
-                <option value="price-low">Price, lowest to highest</option>
-                <option value="newest">Newest releases</option>
-              </select>
-            </div>
-          </form>
-          <fieldset class="centerme"></fieldset>
         </section>
-        <!-- These are the filter features area -->
-        <h2 class="filtercss">Filters</h2>
-        <div class="colorcategory">
-          <fieldset>
-            <div class="filtergrid">
-              <legend class="filtertitlecolour">Color</legend>
-                <select id="shoecolor" class="filterdropdown">
-                  <option value="None"> </option>
-                  <option value="black">Black</option>
-                  <option value="white">White</option>
-                  <option value="green">Green</option>
-                  <option value="red">Red</option>
-                  <option value="blue">Blue</option>
-                  <option value="red">Red</option>
-                </select>
-          </div>
-          </fieldset>
-          <fieldset>
-            <div class="filtergrid">
-              <legend class="filtertitlesize">Category</legend>
-                <select id="shoecategory" class="shoesize filterdropdown">
-                  <option value="None"> </option>
-                  <option value="running">Running</option>
-                  <option value="walking">Walking</option>
-                </select>
-            </div>
-        </div>
-        </fieldset>
       </header>
       <section>
-        <h2 class="searchresults">Search Results</h2>
-        <!-- This area is where the products will get populated from JS -->
-        <div id="products" class="mainproduct"></div>
       </section>
     </main>
     <footer>
@@ -149,26 +104,7 @@
         </div>
       </article>
       <article>
-        <!-- I added a weather api that we learned from Kadeem's class. I linked it's value by stating that the user can decide which type of shoes to wear for the day depending on the weather of the place he's going to. -->
-        <div class="weatherstack backad">
-          <h1 class="adcss"> Be weather-ready and wear the right shoes! Check the weather here:</h1>
-          <form>
-            <select id="city" class="city">
-              <option value="">Please select a location
-              </option>
-              <option value="Calgary">Calgary</option>
-              <option value="Edmonton">Edmonton</option>
-              <option value="Etobicoke">Etobicoke</option>
-              <option value="Manitoba">Manitoba</option>
-              <option value="Montreal">Montreal</option>
-              <option value="Toronto">Toronto</option>
-              <option value="Vancouver">Vancouver</option>
-            </select>
-          </form>
-          <div class="weathertext" id="container"></div>
-          <h2 class="weathertext">Powered by www.weatherstack.com</h2>
-        </div>
-        <p class="nowshowing">&copy; JR Sia | WDDM-F19 Section A, 2019</p>
+        <p class="nowshowing">&copy; JR Sia | Portfolio 2020</p>
       </article>
       <article class="footerfinal">
         <nav aria-label="Legal">
@@ -182,11 +118,10 @@
           <ul class="footericons">
             <li><a href="#" title="Facebook"><i class="fab fa-facebook-f footpad"></i></a></li>
             <li><a href="#" title="Instagram"><i class="fab fa-instagram footpad"></i></a></li>
-            <li><a href="#" title="Twitter"><i class="fab fa-twitter footpad"></i></a></li>
+            <li><a href="#" title="Linkedin"><i class="fab fa-linkedin footpad"></i></a></li>
             <li><a href="#" title="Pinterest"><i class="fab fa-pinterest footpad"></i></a></li>
-            <li><a href="#" title="Reddit"><i class="fab fa-reddit footpad"></i></a></li>
           </ul>
-          <a href="#" class="help" id="dropittwo"><i class="far fa-question-circle helpbutton"></i></a>
+          <!-- <a href="#" class="help" id="dropittwo"><i class="far fa-question-circle helpbutton"></i></a> -->
         </div>
       </article>
     </footer>

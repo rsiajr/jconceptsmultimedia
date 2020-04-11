@@ -459,6 +459,66 @@ border: 2px solid #222;
     text-align: center;
 }
 
+.adgrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* margin-top: 1%; */
+}
+
+.timadfive{
+    background-image: url('/img/timadsix.jpg');
+    background-color: black;
+    background-size: cover;
+    background-position: top;
+    padding: 2%;
+}
+
+.timadsix{
+    background-color: black;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 2%;
+}
+
+
+.timadseven{
+    background-color: white;
+    background-size: cover;
+    background-position: top;
+    padding: 2%;
+}
+
+.timadeight{
+    background-image: url('/img/timadeight.jpg');
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+    padding: 30% 0;
+}
+
+.timadnine{
+    background-image: url('/img/timadnine.jpg');
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+    padding: 30% 0;
+}
+
+.timad11{
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10% 0;
+}
+
+.timad12{
+    background-image: url('/img/timad12.jpg');
+    background-color: white;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
 /* Footer CSS */
 
 .footertext{

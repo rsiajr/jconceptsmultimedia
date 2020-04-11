@@ -1028,7 +1028,29 @@ border: 2px solid #222;
         background-color: white;
         background-size: cover;
         background-position: bottom;
-        padding: 2%;
+        padding: 30% 0;
+    }
+
+    .timadnine{
+        background-image: url('/img/timadnine.jpg');
+        background-color: white;
+        background-size: cover;
+        background-position: bottom;
+        padding: 30% 0;
+    }
+
+    .timad11{
+        background-color: white;
+        background-size: cover;
+        background-position: bottom;
+        padding: 10% 0;
+    }
+
+    .timad12{
+        background-image: url('/img/timad12.jpg');
+        background-color: white;
+        background-size: cover;
+        background-position: bottom;
     }
 
     .marg-top{

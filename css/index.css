@@ -1071,10 +1071,7 @@ border: 2px solid #222;
     }
 
     .timadsix{
-        background-color: black;
-        background-size: cover;
-        background-position: bottom;
-        padding-bottom: 2%;
+        background-image: none;
     }
 
     
